@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Close Up App</string>
+    <string name="btnCam">Camara</string>
+    <string name="visor">visor</string>
+</resources>

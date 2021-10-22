@@ -2,8 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cristo.closeupapp">
 
+
     <uses-feature android:name="android.hardware.camera" android:required="true"></uses-feature>
-    <uses-feature android:name="android.hardware.location.gps" android:required="true"></uses-feature>
+    //permiso para gps
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    //permiso para gps
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    // permiso para notificar
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    //permiso para leer memoria
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    //permiso para escribir memoria
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
